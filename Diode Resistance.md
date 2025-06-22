@@ -1,6 +1,4 @@
-Here is your explanation converted into **Markdown (`.md`) format**:
 
-```markdown
 # Diode Resistance and Its Significance in Circuits
 
 ## What is Diode Resistance?
@@ -13,11 +11,11 @@ Here is your explanation converted into **Markdown (`.md`) format**:
 
 This is the resistance calculated using Ohm’s Law:
 
-```
+R_DC = V_D / I_D
 
-R\_DC = V\_D / I\_D
-
-```
+yaml
+Copy
+Edit
 
 Where:
 - `V_D` is the voltage across the diode  
@@ -31,19 +29,19 @@ This gives an average resistance at a particular operating point but isn’t use
 
 This is the small-signal resistance of the diode at a particular bias point:
 
-```
+r_d = dV / dI
 
-r\_d = dV / dI
-
-```
+csharp
+Copy
+Edit
 
 In the forward-biased region (especially in signal diodes), the dynamic resistance is important and can be approximated as:
 
-```
+r_d ≈ (n * V_T) / I_D
 
-r\_d ≈ (n \* V\_T) / I\_D
-
-```
+yaml
+Copy
+Edit
 
 Where:
 - `n` is the ideality factor (typically 1–2)  
@@ -80,6 +78,3 @@ Diode resistance helps model real diode behavior. Though diodes are not resistor
 - Signal clipping/clamping  
 - Switching  
 - Voltage regulation
-```
-
-Let me know if you'd like this saved as a downloadable `.md` file or need a visual preview.
