@@ -1,1 +1,1 @@
-# Electronics-Diode-Resistance
+# Electronics
